@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         const username = document.getElementById("login-username").value;
         const password = document.getElementById("login-password").value;
-        // Add your login logic here (e.g., validation or authentication)
     });
 
     signupForm.addEventListener("submit", function (e) {
