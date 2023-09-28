@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const username = document.getElementById("login-username").value;
         const password = document.getElementById("login-password").value;
     });
-
     signupForm.addEventListener("submit", function (e) {
         e.preventDefault();
         const signupUsername = document.getElementById("signup-username").value;
